@@ -1,1 +1,133 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.game-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.games .game {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  flex: 1 1 45%;
+  border-radius: 8px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.games .game:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.games img {
+  max-width: 180px;
+  margin-bottom: 1rem;
+}
+
+.games h3 {
+  margin-bottom: 0.5rem;
+}
+
+.games p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.games a {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.games a:hover {
+  background: #444;
+}
+
+.dev-tag {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.team .team-section {
+  margin-bottom: 2rem;
+}
+
+.team h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.team ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.team li {
+  margin-bottom: 0.3rem;
+}
+
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+```
